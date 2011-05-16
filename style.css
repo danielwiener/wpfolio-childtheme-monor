@@ -1,0 +1,28 @@
+/*
+Theme Name: WPFolio for Mandy
+Theme URI: http://wpfolio.visitsteve.com/wiki/
+Description: Designed specifically for artist's portfolios. Features large images, theme options, and plenty of versatility. GPLv3 licensed. We welcome your code.
+Version: 1.0
+Author: Daniel Wiener based on the work of Steve Lambert & many others
+Author URI: http://danielwiener.com
+Template: wpfolio
+Tags: fixed-width, photoblogging, one-column, two-columns, theme-options, custom-background, threaded-comments, custom-menu, custom-colors
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+.
+NOTE: Modifying CSS
+1. Use the included sample child theme
+2. rules commented out and wrapped in parentheses i.e.
+($WPFolio_body_font)
+are handled by the header.php file and editable in
+Current Theme Options in the Wordpress dashboard. They
+can be overridden by the child theme.
+*/  
+
+@import	url('../wpfolio/style.css');
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background: rgba(225, 225, 225, 1);
+	outline: 0;
+	}
