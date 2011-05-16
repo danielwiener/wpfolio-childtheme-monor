@@ -44,3 +44,42 @@ can be overridden by the child theme.
 	background: rgba(225, 225, 225, .9);
 	outline: 0;
 	}
+
+
+/*=Links Page style */
+
+ul#dw_links {
+	list-style: none;
+	padding: 0 0 0 0;
+} 
+
+ul#dw_links li.linkcat h2 {
+	padding: 30px 0 -10px 0;
+	font-size: 25px;
+	border-bottom: 1px solid #999; 
+	margin-bottom: 10px;
+	} 
+	 
+ul#dw_links li.linkcat {	
+	margin-bottom: 20px;
+	}  
+
+ul.blogroll {
+	list-style: none;
+	padding: 0 0 0 5px;
+} 
+
+ul.blogroll li{
+	font-size: 14px;
+}
+
+ul.blogroll li a:link, ul.blogroll li a:visited {
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+ul.blogroll li a:hover, ul.blogroll li a:active {
+	font-size: 16px;
+	color: #A43329;
+	line-height: 24px;
+	} 
