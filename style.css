@@ -19,10 +19,28 @@ Current Theme Options in the Wordpress dashboard. They
 can be overridden by the child theme.
 */  
 
-@import	url('../wpfolio/style.css');
+@import	url('../wpfolio/style.css');  
+
+.sf-menu a, .sf-menu a:visited  {
+    /* text color */
+    color: #333;
+	}
+.sf-menu li {
+    /* box color for top-level menu items */
+    background: #fff;
+	}
+.sf-menu li li {
+    /* box color for second-level menu items */
+    background: rgba(225, 214, 205, .8);
+	}
+.sf-menu li li li {
+    /* box color for third-level menu items */
+    background:         #9AAEDB;
+}
+
 
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-	background: rgba(225, 225, 225, 1);
+	background: rgba(225, 225, 225, .9);
 	outline: 0;
 	}
