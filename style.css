@@ -20,7 +20,7 @@ can be overridden by the child theme.
 */  
 
 @import	url('../wpfolio/style.css');  
-
+/*got superfish css from http://stackoverflow.com/questions/1478966/superfish-menu-color*/
 .sf-menu a, .sf-menu a:visited  {
     /* text color */
     color: #333;
